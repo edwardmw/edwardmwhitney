@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gem 'tactile'
+gem 'github-pages', group: :jekyll_plugins
