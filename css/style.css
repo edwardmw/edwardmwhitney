@@ -92,4 +92,12 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	margin: 5px 15px 0px 0px;
 	font-family: 'Montserrat', Helvetica, sans-serif; }
 
+/* Rule for floating the image on the main page */
+.img-float-left {
+  float: left;                /* This is the key property that makes text wrap */
+  width: 30%;                 /* Sets the image width relative to the container */
+  max-width: 280px;           /* Prevents the image from getting too large on big screens */
+  margin-right: 30px;         /* Adds space between the image and the text */
+  margin-bottom: 15px;        /* Adds space below the image before text wraps underneath */
+}
 
